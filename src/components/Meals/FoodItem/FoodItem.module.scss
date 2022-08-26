@@ -1,0 +1,41 @@
+.fooditem-wrap {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid lighten(#3f3f3f, 60);
+
+  &.lastElement {
+    border-bottom: none;
+  }
+
+  .food {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+
+    .food-name {
+      font-size: 0.875rem;
+      font-weight: 900;
+    }
+
+    .food-description {
+      font-style: italic;
+    }
+
+    .food-price {
+      color: #8a2b06;
+      font-weight: 900;
+    }
+  }
+
+  
+}
+
+
+@media (max-width: 30.5625rem) {
+  .fooditem-wrap {
+    height: 10.625rem;
+  }
+}

@@ -1,0 +1,35 @@
+.cart-items {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.total {
+  width: 95%;
+  margin: 1.25rem 0.625rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  & > span {
+    font-weight: 800;
+  }
+}
+.actions {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 0.625rem;
+
+  display: flex;
+  gap: 0.625rem;
+
+  .btn-order {
+    background-color: #8a2b06;
+    color: #fff;
+  }
+
+  .btn-close {
+    color: #8a2b06;
+    background-color: inherit;
+    border: 1px solid #8a2b06;
+  }
+}

@@ -1,0 +1,43 @@
+.food-order {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  text-align: right;
+
+  .order-input-wrap {
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+
+    .amount {
+      font-size: 0.875rem;
+      font-weight: 900;
+    }
+
+    .quantity {
+      width: 1.5625rem;
+      aspect-ratio: 1;
+      color: #000000;
+      font-size: 0.875rem;
+
+      /* Firefox */
+      -moz-appearance: textfield;
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .order-btn {
+    background-color: #8a2b06;
+    border: none;
+    color: #fff;
+    border-radius: 1.5625rem;
+    padding: 0.3125rem 0.9375rem;
+    width: 4.375rem;
+    cursor: pointer;
+  }
+}

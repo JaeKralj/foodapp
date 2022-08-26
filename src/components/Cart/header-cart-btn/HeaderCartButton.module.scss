@@ -1,0 +1,32 @@
+button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item-count {
+  aspect-ratio: 1;
+  height: 1.6875rem;
+  background-color: #b94517;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:active {
+    background-color: #92320c;
+  }
+}
